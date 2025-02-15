@@ -365,7 +365,7 @@ void publishTelemetry(float temperature, float humidity) {
 // Setup OTA
 void setupOTA() {
   ArduinoOTA.setHostname(device_id.c_str());
-  ArduinoOTA.setPassword("123qwe");
+  ArduinoOTA.setPassword("<Your_Password_here>");
 
   ArduinoOTA.onStart([]() {
     String type = (ArduinoOTA.getCommand() == U_FLASH) ? "sketch" : "filesystem";
