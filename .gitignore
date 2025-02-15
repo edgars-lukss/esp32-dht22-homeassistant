@@ -1,0 +1,8 @@
+.pio
+.vscode
+backup
+include
+lib
+test
+esp32-mqtt-dht22.code-workspace
+platformio.ini
